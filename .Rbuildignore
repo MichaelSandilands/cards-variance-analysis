@@ -1,0 +1,8 @@
+^cardsvariance\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+^data-raw$
+^dev$
+^app\.R$
+^renv$
+^renv\.lock$
