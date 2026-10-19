@@ -1,0 +1,42 @@
+Package: cardsvariance
+Title: Variance Analysis and Validation of Card Payments Regulatory Data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Michael", "Sandilands", , "msand91@gmail.com", role = c("aut", "cre"))
+Description: A Shiny application and supporting functions for
+    pre-submission validation of card payments statistics:
+    period-on-period variance analysis, seasonal adjustment and anomaly
+    detection with 'timetk', hierarchy and cross-return reconciliation
+    rules, and value/volume bridge analysis.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en-GB
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    pkgload,
+    testthat (>= 3.0.0),
+    withr
+Config/testthat/edition: 3
+Imports: 
+    bslib,
+    dplyr,
+    DT,
+    lubridate,
+    magrittr,
+    markdown,
+    plotly,
+    purrr,
+    readr,
+    rlang,
+    scales,
+    shiny,
+    stats,
+    tibble,
+    tidyr,
+    timetk,
+    tools,
+    utils
+Depends: 
+    R (>= 4.1)
+LazyData: true
+Config/roxygen2/version: 8.1.0
